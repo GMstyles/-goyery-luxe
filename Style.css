@@ -1,57 +1,42 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Georgia', serif;
   background-color: #111;
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
-
-.encabezado {
-  background-color: #000;
+header {
   text-align: center;
+  background-color: #000;
   padding: 20px;
 }
-
-.encabezado img {
-  width: 120px;
+.logo {
+  width: 150px;
 }
-
+h1 {
+  color: #bfa046;
+}
 section {
   padding: 20px;
   text-align: center;
 }
-
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.galeria img {
-  width: 200px;
-  border: 2px solid gold;
-  border-radius: 10px;
-  transition: transform 0.2s ease;
-}
-
-.galeria img:hover {
-  transform: scale(1.05);
-}
-
-.videos video {
+.imagenes-inicio img, .galeria-productos img {
   width: 300px;
   margin: 10px;
-  border: 2px solid gold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.videos-nosotros video {
+  width: 300px;
+  margin: 10px;
   border-radius: 10px;
 }
-
-.whatsapp-float {
+.whatsapp-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
   width: 60px;
 }
-
-.whatsapp-float img {
+.whatsapp-btn img {
   width: 100%;
 }
