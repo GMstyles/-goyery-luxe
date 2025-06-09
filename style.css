@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+}
+#logo {
+    width: 100px;
+}
+section {
+    padding: 20px;
+}
+.producto {
+    display: inline-block;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    margin: 20px;
+}
