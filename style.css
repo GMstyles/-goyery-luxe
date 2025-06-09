@@ -1,60 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
 
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Georgia', serif;
-    background-image: url("fondo.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: white;
-  }
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  padding: 20px;
+}
 
-  header {
-    background-color: rgba(0, 0, 0, 0.85);
-    text-align: center;
-    padding: 20px;
-  }
+header img {
+  width: 150px;
+}
 
-  header img {
-    width: 150px;
-  }
+h1, h2 {
+  color: gold;
+  text-align: center;
+}
 
-  h1, h2 {
-    color: gold;
-  }
+section {
+  padding: 40px 20px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+}
 
-  section {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin: 20px auto;
-    width: 90%;
-    border-radius: 12px;
-  }
+img {
+  max-width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid gold;
+}
 
-  img {
-    max-width: 200px;
-    margin: 10px;
-    border: 2px solid gold;
-    border-radius: 10px;
-  }
+.videos video {
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 300px;
+}
 
-  .videos video {
-    margin: 10px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-  }
+footer {
+  text-align: center;
+  padding: 20px;
+}
 
-  footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px;
-  }
-
-  footer img {
-    width: 40px;
-    margin: 0 10px;
-  }
-</style>
+footer img {
+  width: 40px;
+  margin: 0 10px;
+}
