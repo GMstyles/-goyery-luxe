@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fff;
+    color: #000;
+}
+
+/* HEADER */
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: gold;
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+
+header p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* NAV */
+nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* INICIO */
+.inicio {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.inicio h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #bfa046;
+}
+
+.inicio .imagenes-inicio img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* NOSOTROS */
+.nosotros {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.nosotros h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #bfa046;
+}
+
+.nosotros video {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* PRODUCTOS */
+.productos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #bfa046;
+}
+
+.producto-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.producto-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer img {
+    width: 40px;
+    margin-top: 10px;
+}
