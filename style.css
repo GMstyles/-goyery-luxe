@@ -1,0 +1,91 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+.logo {
+  width: 200px;
+}
+nav a {
+  color: gold;
+  margin: 0 15px;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+video {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+}
+.botones-flotantes {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 999;
+}
+.icono-contacto {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.icono-contacto:hover {
+  transform: scale(1.2);
+}
+
+
+/* Tipografía de lujo */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Transiciones y efectos suaves */
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px gold;
+}
+
+/* Encabezados con detalles dorados */
+h2 {
+  color: gold;
+  border-bottom: 2px solid gold;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
