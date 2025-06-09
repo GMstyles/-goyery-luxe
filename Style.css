@@ -1,42 +1,144 @@
-body {
-  font-family: 'Georgia', serif;
-  background-color: #111;
-  color: #fff;
+/* RESET GLOBAL */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* HEADER */
 header {
-  text-align: center;
   background-color: #000;
+  text-align: center;
   padding: 20px;
 }
-.logo {
+
+header .logo {
   width: 150px;
+  margin-bottom: 10px;
 }
-h1 {
-  color: #bfa046;
+
+/* TÍTULO PRINCIPAL */
+header h1 {
+  color: gold;
+  font-size: 28px;
+  margin: 10px 0 5px;
 }
+
+/* SUBTÍTULO */
+header p {
+  color: #ccc;
+  font-size: 16px;
+}
+
+/* NAVEGACIÓN */
+nav {
+  background-color: #222;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: gold;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* SECCIONES */
 section {
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
-.imagenes-inicio img, .galeria-productos img {
+
+section h2 {
+  color: #bfa046;
+  margin-bottom: 20px;
+}
+
+/* IMÁGENES INICIO */
+.imagenes-inicio img {
   width: 300px;
   margin: 10px;
   border-radius: 10px;
-  cursor: pointer;
 }
+
+/* PRODUCTOS */
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  width: 280px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  color: #000;
+}
+
+.product-card p {
+  color: #bfa046;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* VIDEOS */
 .videos-nosotros video {
   width: 300px;
   margin: 10px;
   border-radius: 10px;
 }
-.whatsapp-btn {
+
+/* FOOTER */
+footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+/* BOTÓN WHATSAPP */
+#whatsapp-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
   width: 60px;
+  z-index: 999;
 }
-.whatsapp-btn img {
+
+#whatsapp-btn img {
   width: 100%;
+  transition: transform 0.3s;
+}
+
+#whatsapp-btn img:hover {
+  transform: scale(1.1);
 }
