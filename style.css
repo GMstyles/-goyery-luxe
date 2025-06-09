@@ -1,46 +1,60 @@
-body {
-  font-family: 'Georgia', serif;
-  background-color: #fdfcf7;
-  margin: 0;
-  padding: 0;
-  color: #000;
-}
 
-section {
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto;
-}
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-image: "ifondo.png"
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+  }
 
-.videos {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+  header {
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    padding: 20px;
+  }
 
-.videos video {
-  width: 300px;
-  height: auto;
-  border-radius: 8px;
-}
+  header img {
+    width: 150px;
+  }
 
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
+  h1, h2 {
+    color: gold;
+  }
 
-.productos img {
-  width: 250px;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
+  section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 12px;
+  }
 
-.productos img:hover {
-  transform: scale(1.05);
-}
+  img {
+    max-width: 200px;
+    margin: 10px;
+    border: 2px solid gold;
+    border-radius: 10px;
+  }
+
+  .videos video {
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  footer img {
+    width: 40px;
+    margin: 0 10px;
+  }
+</style>
