@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Georgia', serif;
-    background-image: url("img/img/fondo.png");
+    background-image: url("fondo.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
