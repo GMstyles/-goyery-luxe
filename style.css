@@ -68,3 +68,13 @@ footer img {
   max-width: 150px;
   border-radius: 10px;
 }
+
+.imagenes-inicio {
+  text-align: center;
+}
+
+.imagenes-inicio img {
+  margin: 10px;
+  width: 200px; /* puedes ajustar el tamaño */
+  height: auto;
+}
