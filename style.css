@@ -56,3 +56,15 @@ footer img {
   width: 40px;
   margin: 0 10px;
 }
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espacio entre imágenes */
+  flex-wrap: wrap; /* para que se acomoden bien si hay muchas */
+  margin-top: 15px;
+}
+.centrado img {
+  max-width: 150px;
+  border-radius: 10px;
+}
