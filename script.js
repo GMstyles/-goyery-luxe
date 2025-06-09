@@ -1,0 +1,1 @@
+// JavaScript básico (si deseas agregar funciones dinámicas)
