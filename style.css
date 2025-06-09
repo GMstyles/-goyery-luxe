@@ -1,0 +1,75 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #000;
+  color: gold;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header img.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #111;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: gold;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.imagenes-inicio img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.videos video {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.galeria-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.galeria-productos img {
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.galeria-productos img:hover {
+  transform: scale(1.05);
+}
