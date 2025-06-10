@@ -276,3 +276,57 @@ p {
 .galeria-videos video:hover {
   transform: scale(1.05);
 }
+/* Para secciones generales: Inicio, Nosotros, etc. */
+.seccion-info {
+  background-color: #111;
+  color: #ffd700; /* dorado más claro */
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+  margin-top: 20px;
+}
+
+/* Títulos dorados con sombra */
+.seccion-info h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 15px;
+}
+
+/* Párrafos con mejor legibilidad */
+.seccion-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fffbea;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Links dorados con efecto hover */
+.seccion-info a {
+  color: #ffd700;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.seccion-info a:hover {
+  color: #ffffff;
+}
+
+/* Botones dorados (si deseas usar alguno después) */
+.boton-dorado {
+  background-color: #ffd700;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.boton-dorado:hover {
+  background-color: #ffcc00;
+}
