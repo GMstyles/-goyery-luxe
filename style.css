@@ -344,3 +344,10 @@ p {
 .boton-dorado:hover {
   background-color: #ffcc00;
 }
+#logo {
+  transition: transform 0.8s ease;
+}
+
+#logo:hover {
+  transform: rotate(360deg);
+}
