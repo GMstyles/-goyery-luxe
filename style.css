@@ -256,3 +256,23 @@ p {
   border: 2px solid gold;
   border-radius: 10px;
 }
+.galeria-videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.galeria-videos video {
+  width: 280px;
+  height: auto;
+  border: 2px solid gold;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gold;
+  transition: transform 0.3s ease;
+}
+
+.galeria-videos video:hover {
+  transform: scale(1.05);
+}
