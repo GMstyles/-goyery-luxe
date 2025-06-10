@@ -265,7 +265,7 @@ p {
 }
 
 .galeria-videos video {
-  width: 200px;
+  width: 250px;
   height: auto;
   border: 2px solid gold;
   border-radius: 10px;
@@ -274,5 +274,5 @@ p {
 }
 
 .galeria-videos video:hover {
-  transform: scale(1.05);
+  transform: scale(1.00);
 }
