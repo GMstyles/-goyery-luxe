@@ -109,3 +109,45 @@ p {
   gap: 20px;
   margin-top: 20px;
 }
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.productos img {
+  width: 160px;         /* o ajusta el tamaño como prefieras */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid gold;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.productos img:hover {
+  transform: scale(1.05);
+}.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.productos img {
+  width: 160px;         
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid gold;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.productos img:hover {
+  transform: scale(1.05);
+}
