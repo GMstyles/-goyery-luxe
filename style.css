@@ -87,9 +87,13 @@ p {
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
-
-.productos img:hover {
-  transform: scale(1.05);
+.producto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid gold;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
 }
 
 /* Videos centrados */
