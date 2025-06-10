@@ -20,42 +20,62 @@ header img {
 }
 
 h1, h2 {
-ont-family: 'Cinzel', serif;
-  font-weight: 700;
+  /* Títulos dorados con mejor estilo */
+h1, h2 {
+  color: gold;
+  font-family: 'Cinzel', serif;
   text-align: center;
-  color: #FFD700;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 20px 0;
 }
 
+/* Párrafos más elegantes */
 p {
   font-family: 'Lora', serif;
-  font-size: 17px;
+  color: #f0f0f0;
   text-align: center;
+  font-size: 16px;
   line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 10px 20px;
 }
 
-section {
-  padding: 40px 20px;
-  margin: 30px auto;
-  width: 90%;
-  max-width: 1200px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 12px;
+/* Contenedor de productos centrado */
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
-img {
-  max-width: 200px;
-  margin: 10px;
-  border-radius: 10px;
+/* Imágenes de productos uniformes */
+.productos img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
   border: 2px solid gold;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.productos img:hover {
+  transform: scale(1.05);
+}
+
+/* Videos centrados */
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
 }
 
 .videos video {
-  margin: 10px;
-  border: 2px solid #fff;
-  border-radius: 10px;
   width: 300px;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
 }
 
 footer {
