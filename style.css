@@ -223,3 +223,23 @@ p {
   background-color: white;
 }
 
+.mensaje-emprendedores {
+  background-color: #111;
+  color: gold;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+}
+
+.mensaje-emprendedores h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.mensaje-emprendedores p {
+  font-size: 18px;
+  line-height: 1.6;
+}
