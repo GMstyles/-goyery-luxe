@@ -171,3 +171,11 @@ p {
 .productos img:hover {
   transform: scale(1.05);
 }
+
+.nombre-producto {
+  text-align: center;
+  color: gold;
+  font-family: 'Lora', serif;
+  margin-top: 8px;
+  font-size: 15px;
+}
