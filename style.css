@@ -243,3 +243,16 @@ p {
   font-size: 18px;
   line-height: 1.6;
 }
+.imagenes-inicio {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.imagenes-inicio img {
+  max-width: 300px;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
