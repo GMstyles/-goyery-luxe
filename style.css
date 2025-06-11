@@ -361,9 +361,10 @@ p {
   border: 2px solid gold;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-  transition: transform 0.2s;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .contenedor-lotes img:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
 }
