@@ -329,61 +329,20 @@ p {
   color: #ffffff;
 }
 
-/* Botones dorados (si deseas usar alguno después) */
-.boton-dorado {
-  background-color: #ffd700;
-  color: #000;
-  padding: 10px 20px;
-  border: none;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.boton-dorado:hover {
-  background-color: #ffcc00;
-}
-#logo {
-  transition: transform 0.8s ease;
-}
-
-#logo:hover {
-  transform: rotate(360deg);
-}
-
-.boton-dorado {
+.btn-lotes {
   display: inline-block;
-  background-color: gold;
-  color: black;
   padding: 10px 20px;
-  margin-top: 20px;
-  border-radius: 8px;
+  margin-top: 10px;
+  border: 2px solid gold;
+  color: gold;
+  background-color: transparent;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.boton-dorado:hover {
-  background-color: #d4af37;
-  color: white;
-}
-
-#cuentas {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.galeria-cuentas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.galeria-cuentas img {
-  width: 180px;
-  height: auto;
-  border: 2px solid gold;
-  border-radius: 10px;
+.btn-lotes:hover {
+  background-color: gold;
+  color: black;
 }
