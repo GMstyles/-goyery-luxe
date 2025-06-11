@@ -351,3 +351,39 @@ p {
 #logo:hover {
   transform: rotate(360deg);
 }
+
+.boton-dorado {
+  display: inline-block;
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton-dorado:hover {
+  background-color: #d4af37;
+  color: white;
+}
+
+#cuentas {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.galeria-cuentas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.galeria-cuentas img {
+  width: 180px;
+  height: auto;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
