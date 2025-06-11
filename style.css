@@ -346,3 +346,17 @@ p {
   background-color: gold;
   color: black;
 }
+.contenedor-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.contenedor-imagenes img {
+  width: 200px;
+  height: auto;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
