@@ -369,11 +369,15 @@ p {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
 }
 .logo-animado {
-  width: 150px;
-  animation: girarLogo 5s linear infinite;
+  width: 180px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
 }
 
-@keyframes girarLogo {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.logo-animado:hover {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
 }
