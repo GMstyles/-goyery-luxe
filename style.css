@@ -381,3 +381,30 @@ p {
   transform: scale(1.1) rotate(2deg);
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
 }
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: gold;
+    color: black;
+}
+
+nav a.activo {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
