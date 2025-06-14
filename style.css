@@ -1299,26 +1299,3 @@ nav a:hover {
   text-shadow: 0 0 8px gold;
 }
 
-
-/* === SUBNAV FUNCIONAL Y CORREGIDO === */
-.subnav {
-  text-align: center;
-  padding: 12px 0;
-}
-
-.subnav a {
-  all: unset;
-  display: inline-block;
-  color: gold;
-  font-weight: bold;
-  font-size: 18px;
-  margin: 0 12px;
-  cursor: pointer;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-  text-decoration: none;
-}
-
-.subnav a:hover {
-  color: white;
-  text-shadow: 0 0 5px gold;
-}
