@@ -46,7 +46,7 @@ img {
   border-radius: 10px;
   border: 2px solid gold;
 }
-}
+
 
 h1, h2 {
   /* Títulos dorados con mejor estilo */
@@ -105,7 +105,7 @@ p {
   border: 2px solid gold;
   border-radius: 10px;
 }
-}
+
 
 footer {
   text-align: center;
@@ -179,7 +179,7 @@ p {
 
 .productos img:hover {
   transform: scale(1.05);
-}.productos {
+.productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -551,14 +551,10 @@ nav a:hover {
 }
 
 
-
-  }
  <div style="text-align: center; margin: 20px 0;">
   <img src="logo.png.PNG"
        alt="Goyery Luxe"
        style="width: 200px; max-width: 90vw; border: 2px solid gold; border-radius: 12px;">
-
-
   }
   
 
@@ -610,10 +606,7 @@ img {
   border-radius: 10px;
   border: 2px solid gold;
 }
-}
 
-h1, h2 {
-  /* Títulos dorados con mejor estilo */
 h1, h2 {
   color: gold;
   font-family: 'Cinzel', serif;
@@ -623,7 +616,6 @@ h1, h2 {
   margin: 20px 0;
 }
 
-/* Párrafos más elegantes */
 p {
   font-family: 'Lora', serif;
   color: #f0f0f0;
@@ -633,7 +625,6 @@ p {
   margin: 10px 20px;
 }
 
-/* Contenedor de productos centrado */
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -672,7 +663,6 @@ p {
   width: 300px;
   border: 2px solid gold;
   border-radius: 10px;
-}
 }
 
 footer {
@@ -1118,9 +1108,7 @@ nav a:hover {
   max-height: 60px;
 }
 
-
-  
- <div style="text-align: center; margin: 20px 0;">
+<div style="text-align: center; margin: 20px 0;">
   <img src="logo.png.PNG"
        alt="Goyery Luxe"
        style="width: 200px; max-width: 90vw; border: 2px solid gold; border-radius: 12px;">
@@ -1202,7 +1190,6 @@ nav a:hover {
   justify-content: space-between;
 }
 
-/* Botón hamburguesa */
 .menu-icon {
   font-size: 30px;
   color: gold;
@@ -1210,12 +1197,11 @@ nav a:hover {
   display: none;
 }
 
-/* Oculta checkbox */
 #menu-toggle {
   display: none;
 }
 
-/* Enlaces visibles en desktop */
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -1230,7 +1216,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Estilos móviles */
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
