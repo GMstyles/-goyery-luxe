@@ -1280,7 +1280,6 @@ nav a:hover {
   border-bottom: 2px solid gold;
 }
 .subnav {
-  background-color: transparent;
   text-align: center;
   padding: 10px 0;
 }
@@ -1289,12 +1288,12 @@ nav a:hover {
   color: gold !important;
   font-weight: bold;
   text-decoration: none !important;
-  margin: 0 15px;
+  margin: 0 10px;
   font-size: 18px;
   transition: color 0.3s;
 }
 
 .subnav a:hover {
   color: white;
-  text-shadow: 0 0 8px gold;
+  text-shadow: 0 0 5px gold;
 }
