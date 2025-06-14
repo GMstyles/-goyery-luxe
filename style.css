@@ -1089,16 +1089,6 @@ nav a:hover {
 
 }
 
-/* === MENÚ RESPONSIVE CENTRADO Y LIMPIO === */
-@media (max-width: 768px) {
-  .menu-icon {
-    display: block;
-    font-size: 30px;
-    color: gold;
-    cursor: pointer;
-    margin: 10px auto;
-    text-align: center;
-  }
 
   .nav-links {
     display: none;
