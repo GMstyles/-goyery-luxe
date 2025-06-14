@@ -484,3 +484,14 @@ nav a.activo {
 .galeria a:hover img {
   transform: scale(1.1);
 }
+.imagen-portada {
+  width: 400px;
+  max-width: 100%;
+  border: 2px solid gold;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.imagen-portada:hover {
+  transform: scale(1.05);
+}
