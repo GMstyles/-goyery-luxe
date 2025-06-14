@@ -891,19 +891,7 @@ p {
   transform: scale(1.15);
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
 }
-.logo-animado {
-  width: 180px;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
-}
 
-.logo-animado:hover {
-  transform: scale(1.1) rotate(2deg);
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
-}
 nav {
     display: flex;
     gap: 20px;
@@ -1101,7 +1089,7 @@ nav a:hover {
 
 }
 
-  /* === MENÚ RESPONSIVE CENTRADO Y LIMPIO === */
+/* === MENÚ RESPONSIVE CENTRADO Y LIMPIO === */
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -1132,14 +1120,13 @@ nav a:hover {
   }
 
   .nav-links li {
-    padding: 10px 0;
     list-style: none;
+    padding: 10px 0;
   }
 
   .nav-links li a {
     color: gold;
     font-weight: bold;
-    font-size: 16px;
     text-decoration: none;
   }
 
@@ -1147,7 +1134,6 @@ nav a:hover {
     color: white;
   }
 }
-  
 
 
 
