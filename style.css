@@ -1300,14 +1300,14 @@ nav a:hover {
 }
 
 
-/* Subnav estilizado: enlaces dorados y definidos */
+/* === SUBNAV FUNCIONAL Y CORREGIDO === */
 .subnav {
   text-align: center;
   padding: 12px 0;
 }
 
 .subnav a {
-  all: unset; /* quita todos los estilos del navegador */
+  all: unset;
   display: inline-block;
   color: gold;
   font-weight: bold;
