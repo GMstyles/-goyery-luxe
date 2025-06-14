@@ -611,3 +611,8 @@ nav a:hover {
        alt="Goyery Luxe"
        style="width: 200px; max-width: 90vw; border: 2px solid gold; border-radius: 12px;">
 </div>
+  .subnav a.activo {
+  color: white;
+  text-decoration: underline;
+  border-bottom: 2px solid gold;
+}
