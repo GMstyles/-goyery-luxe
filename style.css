@@ -1077,4 +1077,25 @@ nav a:hover {
   height: 50px;
   max-height: 60px;
 }
+/* === SUBMENÚ VISUAL Y ELEGANTE === */
+.subnav {
+  text-align: center;
+  padding: 10px 0;
+}
 
+.subnav a {
+  all: unset;
+  display: inline-block;
+  color: gold;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.subnav a:hover {
+  color: white;
+  text-shadow: 0 0 6px gold;
+}
