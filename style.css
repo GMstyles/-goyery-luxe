@@ -1300,32 +1300,25 @@ nav a:hover {
 }
 
 
-/* === SUBNAV REPARADO === */
+/* Subnav estilizado: enlaces dorados y definidos */
 .subnav {
   text-align: center;
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 .subnav a {
-  color: gold !important;
+  all: unset; /* quita todos los estilos del navegador */
+  display: inline-block;
+  color: gold;
   font-weight: bold;
-  text-decoration: none !important;
-  margin: 0 10px;
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-.subnav a {
-  color: gold !important;
-  font-weight: bold;
-  text-decoration: none !important;
   font-size: 18px;
   margin: 0 12px;
-  transition: color 0.3s ease;
   cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-decoration: none;
 }
 
 .subnav a:hover {
-  color: white !important;
-  text-shadow: 0 0 6px gold;
+  color: white;
+  text-shadow: 0 0 5px gold;
 }
