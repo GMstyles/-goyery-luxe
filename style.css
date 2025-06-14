@@ -1099,3 +1099,36 @@ nav a:hover {
   color: white;
   text-shadow: 0 0 6px gold;
 }
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    text-align: center; /* ✅ esto centra los enlaces */
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+    list-style: none; /* ✅ elimina los puntitos */
+  }
+
+  .nav-links li a {
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
