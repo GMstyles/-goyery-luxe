@@ -9,20 +9,24 @@ body {
   color: white;
 }
 
+
 header {
   background-color: rgba(0, 0, 0, 0.85);
   text-align: center;
   padding: 20px;
 }
 
+
 header img {
   width: 150px;
 }
+
 
 h1, h2 {
   color: gold;
   text-align: center;
 }
+
 
 p {
   font-size: 18px;
@@ -30,6 +34,7 @@ p {
   max-width: 800px;
   margin: 0 auto;
 }
+
 
 .contenido-centro {
   display: flex;
@@ -40,13 +45,14 @@ p {
   margin: 20px auto;
 }
 
+
 img {
   max-width: 200px;
   height: auto;
   border-radius: 10px;
   border: 2px solid gold;
 }
-}
+
 
 h1, h2 {
   /* Títulos dorados con mejor estilo */
@@ -60,6 +66,7 @@ h1, h2 {
 }
 
 
+
 p {
   font-family: 'Lora', serif;
   color: #f0f0f0;
@@ -68,6 +75,7 @@ p {
   line-height: 1.6;
   margin: 10px 20px;
 }
+
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -75,6 +83,7 @@ p {
   gap: 20px;
   padding: 20px;
 }
+
 
 .productos img {
   width: 160px;
@@ -84,6 +93,7 @@ p {
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
+
 .producto img {
   width: 200px;
   height: 200px;
@@ -93,6 +103,7 @@ p {
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
 }
 
+
 .videos {
   display: flex;
   justify-content: center;
@@ -100,22 +111,25 @@ p {
   margin: 20px 0;
 }
 
+
 .videos video {
   width: 300px;
   border: 2px solid gold;
   border-radius: 10px;
 }
-}
+
 
 footer {
   text-align: center;
   padding: 20px;
 }
 
+
 footer img {
   width: 40px;
   margin: 0 10px;
 }
+
 
 .centrado {
   display: flex;
@@ -124,14 +138,17 @@ footer img {
   flex-wrap: wrap; /* para que se acomoden bien si hay muchas */
   margin-top: 15px;
 }
+
 .centrado img {
   max-width: 150px;
   border-radius: 10px;
 }
 
+
 .imagenes-inicio {
   text-align: center;
 }
+
 
 .imagenes-inicio img {
   margin: 10px;
@@ -139,17 +156,21 @@ footer img {
   height: auto;
 }
 
+
 h1 {
   font-size: 42px;
 }
+
 
 h2 {
   font-size: 30px;
 }
 
+
 p {
   font-size: 19px;
 }
+
 
 .videos {
   display: flex;
@@ -159,6 +180,7 @@ p {
   margin-top: 20px;
 }
 
+
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -166,6 +188,7 @@ p {
   gap: 20px;
   margin-top: 20px;
 }
+
 
 .productos img {
   width: 160px;         /* o ajusta el tamaño como prefieras */
@@ -177,15 +200,18 @@ p {
   transition: transform 0.3s;
 }
 
+
 .productos img:hover {
   transform: scale(1.05);
-}.productos {
+}
+.productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
 }
+
 
 .productos img {
   width: 160px;         
@@ -197,9 +223,11 @@ p {
   transition: transform 0.3s;
 }
 
+
 .productos img:hover {
   transform: scale(1.05);
 }
+
 
 .galeria-productos {
   display: flex;
@@ -208,6 +236,7 @@ p {
   gap: 20px;
   padding: 20px;
 }
+
 
 .producto img {
   width: 200px;
@@ -218,12 +247,14 @@ p {
   box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
   background-color: white;
 }
+
 /* Efecto zoom */
 .producto:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px gold;
 
 }
+
 
 .nombre-producto {
   color: #ffd700;
@@ -232,6 +263,7 @@ p {
   margin-top: 8px;
   text-shadow: 1px 1px 2px black;
 }
+
 
 .mensaje-emprendedores {
   background-color: #111;
@@ -243,16 +275,19 @@ p {
   border-bottom: 2px solid gold;
 }
 
+
 .mensaje-emprendedores h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
+
 .mensaje-emprendedores p {
   font-size: 18px;
   line-height: 1.6;
 }
+
 .imagenes-inicio {
   display: flex;
   justify-content: center;
@@ -261,11 +296,13 @@ p {
   flex-wrap: wrap;
 }
 
+
 .imagenes-inicio img {
   max-width: 300px;
   border: 2px solid gold;
   border-radius: 10px;
 }
+
 .galeria-videos {
   display: flex;
   flex-wrap: wrap;
@@ -273,6 +310,7 @@ p {
   gap: 20px;
   padding: 20px;
 }
+
 
 .galeria-videos video {
   width: 250px;
@@ -283,9 +321,11 @@ p {
   transition: transform 0.3s ease;
 }
 
+
 .galeria-videos video:hover {
   transform: scale(1.05);
 }
+
 /* Para secciones generales: Inicio, Nosotros, etc. */
 .seccion-info {
   background-color: #111;
@@ -297,6 +337,7 @@ p {
   margin-top: 20px;
 }
 
+
 /* Títulos dorados con sombra */
 .seccion-info h2 {
   font-size: 28px;
@@ -306,6 +347,7 @@ p {
   margin-bottom: 15px;
 }
 
+
 /* Párrafos con mejor legibilidad */
 .seccion-info p {
   font-size: 18px;
@@ -314,6 +356,7 @@ p {
   text-shadow: 1px 1px 2px #000;
 }
 
+
 /* Links dorados con efecto hover */
 .seccion-info a {
   color: #ffd700;
@@ -321,9 +364,11 @@ p {
   font-weight: bold;
 }
 
+
 .seccion-info a:hover {
   color: #ffffff;
 }
+
 
 .btn-lotes {
   display: inline-block;
@@ -338,10 +383,12 @@ p {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+
 .btn-lotes:hover {
   background-color: gold;
   color: black;
 }
+
 .contenedor-lotes {
   display: flex;
   flex-wrap: wrap;
@@ -349,6 +396,7 @@ p {
   gap: 20px;
   padding: 20px;
 }
+
 
 .contenedor-lotes img {
   width: 180px;
@@ -360,10 +408,12 @@ p {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+
 .contenedor-lotes img:hover {
   transform: scale(1.15);
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
 }
+
 .logo-animado {
   width: 180px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -373,10 +423,12 @@ p {
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
 }
 
+
 .logo-animado:hover {
   transform: scale(1.1) rotate(2deg);
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
 }
+
 nav {
     display: flex;
     gap: 20px;
@@ -384,6 +436,7 @@ nav {
     justify-content: center;
     margin-top: 10px;
 }
+
 
 nav a {
     color: white;
@@ -394,21 +447,25 @@ nav a {
     transition: background 0.3s;
 }
 
+
 nav a:hover {
     background-color: gold;
     color: black;
 }
+
 
 nav a.activo {
     background-color: white;
     color: black;
     font-weight: bold;
 }
+
 .sub-menu {
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
   padding: 10px;
 }
+
 
 .sub-menu a {
   margin: 0 15px;
@@ -419,9 +476,11 @@ nav a.activo {
   transition: color 0.3s;
 }
 
+
 .sub-menu a:hover {
   color: white;
 }
+
 .galeria-productos {
   display: flex;
   flex-wrap: wrap;
@@ -429,6 +488,7 @@ nav a.activo {
   gap: 20px;
   padding: 20px;
 }
+
 
 .producto {
   width: 200px;
@@ -441,15 +501,18 @@ nav a.activo {
   background-color: #111;
 }
 
+
 .producto img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+
 .producto:hover {
   transform: scale(1.05);
 }
+
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -457,6 +520,7 @@ nav a.activo {
   gap: 20px;
   padding: 20px;
 }
+
 
 .galeria a {
   display: block;
@@ -470,6 +534,7 @@ nav a.activo {
   transition: transform 0.3s;
 }
 
+
 .galeria img {
   width: 100%;
   height: 100%;
@@ -477,9 +542,11 @@ nav a.activo {
   transition: transform 0.3s ease;
 }
 
+
 .galeria a:hover img {
   transform: scale(1.1);
 }
+
 .imagen-portada {
   width: 400px;
   max-width: 100%;
@@ -488,9 +555,11 @@ nav a.activo {
   transition: transform 0.3s;
 }
 
+
 .imagen-portada:hover {
   transform: scale(1.05);
 }
+
 /* Estilo del menú principal */
 nav {
   background-color: #000000dd;
@@ -499,6 +568,7 @@ nav {
   box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3); /* sombra dorada */
   border-bottom: 2px solid gold;
 }
+
 
 /* Estilo de los enlaces */
 nav a {
@@ -511,17 +581,20 @@ nav a {
   transition: all 0.3s ease;
 }
 
+
 /* Efecto al pasar el mouse */
 nav a:hover {
   background-color: gold;
   color: black;
 }
 
+
 /* Secciones internas como Anillos, Collares */
 .submenu {
   text-align: center;
   margin-top: 10px;
 }
+
 
 .submenu a {
   color: gold;
@@ -531,9 +604,11 @@ nav a:hover {
   font-weight: bold;
 }
 
+
 .submenu a:hover {
   text-shadow: 0 0 5px gold;
 }
+
 /* NAVBAR GENERAL */
 .navbar {
   background-color: black;
@@ -544,573 +619,6 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-/* Logo */
-.logo img {
-  height: 50px;
-  max-height: 60px;
-}
-
-
-
-  }
- <div style="text-align: center; margin: 20px 0;">
-  <img src="logo.png.PNG"
-       alt="Goyery Luxe"
-       style="width: 200px; max-width: 90vw; border: 2px solid gold; border-radius: 12px;">
-
-
-  }
-  
-
-  body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Lora', serif;
-  background-image: url("fondo.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-}
-
-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  text-align: center;
-  padding: 20px;
-}
-
-header img {
-  width: 150px;
-}
-
-h1, h2 {
-  color: gold;
-  text-align: center;
-}
-
-p {
-  font-size: 18px;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.contenido-centro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin: 20px auto;
-}
-
-img {
-  max-width: 200px;
-  height: auto;
-  border-radius: 10px;
-  border: 2px solid gold;
-}
-}
-
-h1, h2 {
-  /* Títulos dorados con mejor estilo */
-h1, h2 {
-  color: gold;
-  font-family: 'Cinzel', serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 32px;
-  margin: 20px 0;
-}
-
-/* Párrafos más elegantes */
-p {
-  font-family: 'Lora', serif;
-  color: #f0f0f0;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 10px 20px;
-}
-
-/* Contenedor de productos centrado */
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-/* Imágenes de productos uniformes */
-.productos img {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border: 2px solid gold;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-.producto img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 2px solid gold;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
-}
-
-/* Videos centrados */
-.videos {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 20px 0;
-}
-
-.videos video {
-  width: 300px;
-  border: 2px solid gold;
-  border-radius: 10px;
-}
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-}
-
-footer img {
-  width: 40px;
-  margin: 0 10px;
-}
-
-.centrado {
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* espacio entre imágenes */
-  flex-wrap: wrap; /* para que se acomoden bien si hay muchas */
-  margin-top: 15px;
-}
-.centrado img {
-  max-width: 150px;
-  border-radius: 10px;
-}
-
-.imagenes-inicio {
-  text-align: center;
-}
-
-.imagenes-inicio img {
-  margin: 10px;
-  width: 200px; /* puedes ajustar el tamaño */
-  height: auto;
-}
-
-h1 {
-  font-size: 42px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-p {
-  font-size: 19px;
-}
-
-.videos {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.productos img {
-  width: 160px;         /* o ajusta el tamaño como prefieras */
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 2px solid gold;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-  transition: transform 0.3s;
-}
-
-.productos img:hover {
-  transform: scale(1.05);
-}.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.productos img {
-  width: 160px;         
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 2px solid gold;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-  transition: transform 0.3s;
-}
-
-.productos img:hover {
-  transform: scale(1.05);
-}
-
-.galeria-productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.producto img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 2px solid gold;
-  box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
-  background-color: white;
-}
-/* Efecto zoom */
-.producto:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px gold;
-
-}
-
-.nombre-producto {
-  color: #ffd700;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 8px;
-  text-shadow: 1px 1px 2px black;
-}
-
-.mensaje-emprendedores {
-  background-color: #111;
-  color: gold;
-  padding: 30px 20px;
-  text-align: center;
-  margin-top: 20px;
-  border-top: 2px solid gold;
-  border-bottom: 2px solid gold;
-}
-
-.mensaje-emprendedores h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.mensaje-emprendedores p {
-  font-size: 18px;
-  line-height: 1.6;
-}
-.imagenes-inicio {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-}
-
-.imagenes-inicio img {
-  max-width: 300px;
-  border: 2px solid gold;
-  border-radius: 10px;
-}
-.galeria-videos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.galeria-videos video {
-  width: 250px;
-  height: auto;
-  border: 2px solid gold;
-  border-radius: 10px;
-  box-shadow: 0 0 10px gold;
-  transition: transform 0.3s ease;
-}
-
-.galeria-videos video:hover {
-  transform: scale(1.05);
-}
-/* Para secciones generales: Inicio, Nosotros, etc. */
-.seccion-info {
-  background-color: #111;
-  color: #ffd700; /* dorado más claro */
-  padding: 30px 20px;
-  text-align: center;
-  border-top: 2px solid gold;
-  border-bottom: 2px solid gold;
-  margin-top: 20px;
-}
-
-/* Títulos dorados con sombra */
-.seccion-info h2 {
-  font-size: 28px;
-  font-weight: bold;
-  color: #ffcc00;
-  text-shadow: 2px 2px 4px black;
-  margin-bottom: 15px;
-}
-
-/* Párrafos con mejor legibilidad */
-.seccion-info p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #ffd700;
-  text-shadow: 1px 1px 2px #000;
-}
-
-/* Links dorados con efecto hover */
-.seccion-info a {
-  color: #ffd700;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.seccion-info a:hover {
-  color: #ffffff;
-}
-
-.btn-lotes {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 10px;
-  border: 2px solid gold;
-  color: gold;
-  background-color: transparent;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.btn-lotes:hover {
-  background-color: gold;
-  color: black;
-}
-.contenedor-lotes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.contenedor-lotes img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border: 2px solid gold;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.contenedor-lotes img:hover {
-  transform: scale(1.15);
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
-}
-.logo-animado {
-  width: 180px;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
-}
-
-.logo-animado:hover {
-  transform: scale(1.1) rotate(2deg);
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
-}
-nav {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 8px 12px;
-    border-radius: 4px;
-    transition: background 0.3s;
-}
-
-nav a:hover {
-    background-color: gold;
-    color: black;
-}
-
-nav a.activo {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-}
-.sub-menu {
-  background-color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  padding: 10px;
-}
-
-.sub-menu a {
-  margin: 0 15px;
-  color: gold;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-.sub-menu a:hover {
-  color: white;
-}
-.galeria-productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.producto {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s;
-  background-color: #111;
-}
-
-.producto img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.producto:hover {
-  transform: scale(1.05);
-}
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.galeria a {
-  display: block;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  background-color: #111;
-  transition: transform 0.3s;
-}
-
-.galeria img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.galeria a:hover img {
-  transform: scale(1.1);
-}
-.imagen-portada {
-  width: 400px;
-  max-width: 100%;
-  border: 2px solid gold;
-  border-radius: 10px;
-  transition: transform 0.3s;
-}
-
-.imagen-portada:hover {
-  transform: scale(1.05);
-}
-/* Estilo del menú principal */
-nav {
-  background-color: #000000dd;
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3); /* sombra dorada */
-  border-bottom: 2px solid gold;
-}
-
-/* Estilo de los enlaces */
-nav a {
-  color: white;
-  font-weight: bold;
-  margin: 0 15px;
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-/* Efecto al pasar el mouse */
-nav a:hover {
-  background-color: gold;
-  color: black;
-}
-
-/* Secciones internas como Anillos, Collares */
-.submenu {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.submenu a {
-  color: gold;
-  margin: 0 10px;
-  font-size: 16px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.submenu a:hover {
-  text-shadow: 0 0 5px gold;
-}
-/* NAVBAR GENERAL */
-.navbar {
-  background-color: black;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
 /* Logo */
 .logo img {
@@ -1118,15 +626,10 @@ nav a:hover {
   max-height: 60px;
 }
 
-
-  
- <div style="text-align: center; margin: 20px 0;">
-  <img src="logo.png.PNG"
-       alt="Goyery Luxe"
-       style="width: 200px; max-width: 90vw; border: 2px solid gold; border-radius: 12px;">
-</div>
+ 
 
   }
+
   
 /* Navbar */
 .navbar {
@@ -1138,6 +641,7 @@ nav a:hover {
   justify-content: space-between;
 }
 
+
 /* Botón hamburguesa */
 .menu-icon {
   font-size: 30px;
@@ -1146,10 +650,12 @@ nav a:hover {
   display: none;
 }
 
+
 /* Oculta checkbox */
 #menu-toggle {
   display: none;
 }
+
 
 /* Enlaces visibles en desktop */
 .nav-links {
@@ -1160,17 +666,20 @@ nav a:hover {
   padding: 0;
 }
 
+
 .nav-links li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
+
 /* Estilos móviles */
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
   }
+
 
   .nav-links {
     display: none;
@@ -1184,13 +693,16 @@ nav a:hover {
     padding: 10px 0;
   }
 
+
   #menu-toggle:checked + .menu-icon + .nav-links {
     display: flex;
   }
 
+
   .nav-links li {
     padding: 10px 0;
   }
+
 
 /* Navbar */
 .navbar {
@@ -1202,6 +714,7 @@ nav a:hover {
   justify-content: space-between;
 }
 
+
 /* Botón hamburguesa */
 .menu-icon {
   font-size: 30px;
@@ -1210,10 +723,12 @@ nav a:hover {
   display: none;
 }
 
+
 /* Oculta checkbox */
 #menu-toggle {
   display: none;
 }
+
 
 /* Enlaces visibles en desktop */
 .nav-links {
@@ -1224,17 +739,20 @@ nav a:hover {
   padding: 0;
 }
 
+
 .nav-links li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
+
 /* Estilos móviles */
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
   }
+
 
   .nav-links {
     display: none;
@@ -1248,18 +766,22 @@ nav a:hover {
     padding: 10px 0;
   }
 
+
   #menu-toggle:checked + .menu-icon + .nav-links {
     display: flex;
   }
 
+
   .nav-links li {
     padding: 10px 0;
   }
+
 .subnav {
   background-color: transparent;
   text-align: center;
   padding: 10px 0;
 }
+
 
 .subnav a {
   color: gold !important;
@@ -1270,20 +792,24 @@ nav a:hover {
   transition: color 0.3s, text-shadow 0.3s;
 }
 
+
 .subnav a:hover {
   color: white;
   text-shadow: 0 0 8px gold;
 }
 
+
 .subnav a.activo {
   color: white;
   border-bottom: 2px solid gold;
 }
+
 .subnav {
   background-color: transparent;
   text-align: center;
   padding: 10px 0;
 }
+
 
 .subnav a {
   color: gold !important;
@@ -1294,7 +820,9 @@ nav a:hover {
   transition: color 0.3s;
 }
 
+
 .subnav a:hover {
   color: white;
   text-shadow: 0 0 8px gold;
 }
+
