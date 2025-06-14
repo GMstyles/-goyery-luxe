@@ -1356,4 +1356,25 @@ nav a:hover {
   .nav-links li {
     padding: 10px 0;
   }
+/* === ESTILO DEFINIDO Y FORZADO PARA EL SUBMENÚ === */
+.subnav {
+  text-align: center;
+  padding: 12px 0;
+}
+
+.subnav a {
+  all: unset;
+  display: inline-block;
+  color: gold !important;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 12px;
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-decoration: none !important;
+}
+
+.subnav a:hover {
+  color: white;
+  text-shadow: 0 0 5px gold;
 }
