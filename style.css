@@ -610,7 +610,7 @@ nav a:hover {
   <img src="logo.png.PNG"
        alt="Goyery Luxe"
        style="width: 200px; max-width: 90vw; border: 2px solid gold; border-radius: 12px;">
-</div>
+
 
   }
   
@@ -729,5 +729,5 @@ nav a:hover {
 
   .nav-links li {
     padding: 10px 0;
-  }
+  
 }
