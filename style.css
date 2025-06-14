@@ -1098,11 +1098,18 @@ nav a:hover {
 .subnav a:hover {
   color: white;
   text-shadow: 0 0 6px gold;
+
 }
 
+  /* === MENÚ RESPONSIVE CENTRADO Y LIMPIO === */
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
+    font-size: 30px;
+    color: gold;
+    cursor: pointer;
+    margin: 10px auto;
+    text-align: center;
   }
 
   .nav-links {
@@ -1115,7 +1122,9 @@ nav a:hover {
     width: 100%;
     z-index: 999;
     padding: 15px 0;
-    text-align: center; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   #menu-toggle:checked + .menu-icon + .nav-links {
@@ -1124,14 +1133,21 @@ nav a:hover {
 
   .nav-links li {
     padding: 10px 0;
-    list-style: none; 
+    list-style: none;
   }
 
   .nav-links li a {
-    color: gold !important;
+    color: gold;
     font-weight: bold;
-    text-decoration: none !important;
+    font-size: 16px;
+    text-decoration: none;
   }
+
+  .nav-links li a:hover {
+    color: white;
+  }
+
+  
 
 
 
