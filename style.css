@@ -1089,16 +1089,22 @@ nav a:hover {
 
 }
 
+/* NAVIGATION CENTRADA TOTAL */
 .navbar {
   background-color: black;
   padding: 15px 0;
-  text-align: center;
   border-bottom: 2px solid gold;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-links {
   display: flex;
-  justify-content: center;
   gap: 40px;
   list-style: none;
   padding: 0;
@@ -1116,7 +1122,6 @@ nav a:hover {
 
 .nav-links li a:hover {
   color: gold;
-}
 }
 .seccion-info {
   text-align: center;
