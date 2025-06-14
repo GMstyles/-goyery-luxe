@@ -75,7 +75,44 @@
       <img src="instagram.PNG" alt="Instagram" style="width:50px;" />
     </a>
   </footer>
+<script>
+  // Marcar sección activa (submenú interno)
+  const secciones = document.querySelectorAll("section[id]");
+  const enlacesInternos = document.querySelectorAll(".subnav a");
 
+  window.addEventListener("scroll", () => {
+    let seccionActual = "";
+
+    secciones.forEach((section) => {
+      const top = window.scrollY;
+      const offset = section.offsetTop - 100;
+      const height = section.offsetHeight;
+      const id = section.getAttribute("id");
+
+      if (top >= offset && top < offset + height) {
+        seccionActual = id;
+      }
+    });
+
+    enlacesInternos.forEach((link) => {
+      link.classList.remove("activo");
+      if (link.getAttribute("href") === "#" + seccionActual) {
+        link.classList.add("activo");
+      }
+    });
+  });
+
+  // Marcar página activa (nav principal)
+  const navLinks = document.querySelectorAll(".nav-link");
+  const currentURL = window.location.pathname.split("/").pop();
+
+  navLinks.forEach(link => {
+    const href = link.getAttribute("href");
+    if (href === currentURL || (href === "index.html" && currentURL === "")) {
+      link.classList.add("activo");
+    }
+  });
+</script>
 </body>
 </html>
 
