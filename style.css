@@ -1298,4 +1298,62 @@ nav a:hover {
   color: white;
   text-shadow: 0 0 8px gold;
 }
+.navbar {
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.menu-icon {
+  font-size: 30px;
+  color: gold;
+  cursor: pointer;
+  display: none;
+  padding: 10px;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 2px solid gold;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+}
