@@ -1088,41 +1088,31 @@ nav a:hover {
   text-shadow: 0 0 6px gold;
 
 }
+.navbar {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 2px solid gold;
+}
 
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: black;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    padding: 15px 0;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
 
-  #menu-toggle:checked + .menu-icon + .nav-links {
-    display: flex;
-  }
-
-  .nav-links li {
-    list-style: none;
-    padding: 10px 0;
-  }
-
-  .nav-links li a {
-    color: gold;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  .nav-links li a:hover {
-    color: white;
-  }
+.nav-links li a:hover {
+  color: gold;
 }
 
 
