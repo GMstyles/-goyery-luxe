@@ -616,3 +616,25 @@ nav a:hover {
   text-decoration: underline;
   border-bottom: 2px solid gold;
 }
+  .subnav {
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.subnav a {
+  color: gold;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.subnav a:hover {
+  color: white;
+}
+
+.subnav a.activo {
+  color: white;
+  border-bottom: 2px solid gold;
+}
