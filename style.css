@@ -1099,6 +1099,8 @@ nav a:hover {
   color: white;
   text-shadow: 0 0 6px gold;
 }
+
+/* === CORRECCIÓN MENÚ RESPONSIVE === */
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -1114,7 +1116,7 @@ nav a:hover {
     width: 100%;
     z-index: 999;
     padding: 15px 0;
-    text-align: center; /* ✅ esto centra los enlaces */
+    text-align: center; /* Centra enlaces */
   }
 
   #menu-toggle:checked + .menu-icon + .nav-links {
@@ -1123,12 +1125,13 @@ nav a:hover {
 
   .nav-links li {
     padding: 10px 0;
-    list-style: none; /* ✅ elimina los puntitos */
+    list-style: none; /* Elimina puntos */
   }
 
   .nav-links li a {
-    color: gold;
+    color: gold !important;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: none !important;
   }
+}
 
