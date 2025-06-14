@@ -695,3 +695,39 @@ nav a:hover {
     padding: 10px 0;
   }
 }
+  .menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: gold;
+  padding: 10px;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+  }
+
+  #menu-toggle:checked + label + .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+}
