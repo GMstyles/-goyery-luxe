@@ -538,3 +538,72 @@ nav a:hover {
 .submenu a:hover {
   text-shadow: 0 0 5px gold;
 }
+/* NAVBAR GENERAL */
+.navbar {
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+  height: 50px;
+  max-height: 60px;
+}
+
+/* Botón hamburguesa */
+.menu-icon {
+  font-size: 30px;
+  color: gold;
+  cursor: pointer;
+  display: none;
+}
+
+/* Enlaces principales */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+/* Oculta checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    background-color: #000;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 2px solid gold;
+    padding-bottom: 10px;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .nav-links li a {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+  }
+}
