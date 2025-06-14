@@ -1315,28 +1315,17 @@ nav a:hover {
   transition: color 0.3s;
 }
 
-.subnav a:hover {
-  color: white;
-  text-shadow: 0 0 5px gold;
-}
-/* === FORZAR ESTILO DE SUBMENÚ === */
-.subnav {
-  text-align: center;
-  padding: 10px 0;
-}
-
 .subnav a {
-  all: unset;
-  display: inline-block;
   color: gold !important;
   font-weight: bold;
-  margin: 0 12px;
+  text-decoration: none !important;
   font-size: 18px;
+  margin: 0 12px;
+  transition: color 0.3s ease;
   cursor: pointer;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .subnav a:hover {
-  color: white;
+  color: white !important;
   text-shadow: 0 0 6px gold;
 }
