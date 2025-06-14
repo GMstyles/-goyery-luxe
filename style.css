@@ -611,27 +611,27 @@ nav a:hover {
        alt="Goyery Luxe"
        style="width: 200px; max-width: 90vw; border: 2px solid gold; border-radius: 12px;">
 </div>
-  .subnav a.activo {
-  color: white;
-  text-decoration: underline;
-  border-bottom: 2px solid gold;
-}
-  .subnav {
+
+  }
+  
+.subnav {
   background-color: transparent;
   text-align: center;
   padding: 10px 0;
 }
 
 .subnav a {
-  color: gold;
+  color: gold !important;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none !important;
   margin: 0 15px;
-  transition: color 0.3s;
+  font-size: 18px;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
 .subnav a:hover {
   color: white;
+  text-shadow: 0 0 8px gold;
 }
 
 .subnav a.activo {
